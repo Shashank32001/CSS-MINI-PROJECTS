@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLIDESHOW</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: #fff;
+        }
+        .center{
+            position: absolute;
+            top: 25%;
+            left: 35%;
+        }
+        .slide{
+            background: url(assets/images/31.jpg);
+            background-size: cover;
+            height: 450px;
+            width: 450px;
+            box-shadow: 0px 5px 8px rgba(0,0,0,0.3);
+            animation: animation 20s infinite ;
+        }
+        @keyframes animation{
+            20%{
+                background: url(assets/images/32.jpg);
+                background-size: cover;
+            }
+            
+            40%{
+                background: url(assets/images/33.jpg);
+                background-size: cover;
+            }
+            
+            60%{
+                background: url(assets/images/34.jpg);
+                background-size: cover;
+            }
+          
+            80%{
+                background: url(assets/images/35.jpg);
+                background-size: cover;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>SLIDESHOW EFFECT</h1>
+</center>
+    <div class="center slide"></div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.wrapper{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.single{
+    padding: 20px 20px 20px;
+    /* height: 150px;
+    width: 150px; */
+}
+img:hover{
+    opacity: 0.9;
+    transition: 0.9s
+}
+img{
+    height: 350px;
+    width: 350px;
+}
